@@ -1,0 +1,28 @@
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Environment files
+.venv/
+env/
+*.env
+
+# Data files (assuming these are large or sensitive)
+SINGLE ROW RECIPE TO REFINE HERE.csv
+TRANING DATA HERE.csv
+
+# Output files
+WRITE REFINED RECIPE NAME HERE.csv
+
+# IDE configurations
+.vscode/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db

@@ -4,6 +4,6 @@ Provide a single row (or recipe) to the code, and training data with actual cust
 
 This code also includes imputation for missing data for specific columns.
 
-Make sure all columns called for in the code are present in both the training set and the single recipe set for refinement.
+Make sure all columns called for in the code are present in both the training set and the single recipe set for refinement.  If it is not in the training set or recipe being refined, remove it.
 
 This uses the Extra Trees algorithm, as it seemed to have always performed the best, however, feel free to use whatever algorithm you'd like that uses regression.
